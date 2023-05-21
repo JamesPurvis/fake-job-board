@@ -25,3 +25,14 @@ nav {
     height: 23vh;
     font-size: 14px;
 }
+
+.login-box {
+    background-color: rgb(232, 232, 232);
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+}
+
+#loginbutton {
+    background-color: rgb(105, 161, 171);
+}
