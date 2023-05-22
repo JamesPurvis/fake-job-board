@@ -79,5 +79,47 @@ nav {
     background-color: rgb(232, 232, 232);
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    font-size: 11px;
+    color: rgb(110, 124, 134);
+    background-color: rgb(13, 36, 52);
+    margin-top: auto;
+  }
 
+  .links {
+    padding-top: 0;
+    padding-left: 9rem;
+  }
+
+  .links a {
+    text-decoration: underline;
+    color: rgb(110, 124, 134);
+  }
+
+  #filterbutton {
+    background-color: rgb(105, 161, 171);
+  }
+
+  .search-dropdown {
+    background-color: rgb(232, 232, 232);
+    width: auto;
+    height: fit-content;
+  }
+
+  .hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .visible {
+    display: block;
+    opacity: 0.3s;
+  }
 
